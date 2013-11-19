@@ -1,0 +1,16 @@
+name: Moderator Mode
+version: 1.0
+description: Moderator Mode
+author: Teken
+main: Teken.ModMode.main
+commands:
+    modmode:
+        description: Moderator mode command
+        usage: </command> arguments 
+        permission: Teken.ModMode.mod
+        permission-message: You are not a moderator
+    mm:
+        description: Moderator mode alias command
+        usage: </command> arguments 
+        permission: Teken.ModMode.mod
+        permission-message: You are not a moderator
